@@ -24,7 +24,7 @@ My GitHub portfolio is built around one practical engineering workflow:
 
 ---
 
-## 🚀 Featured Engineering Projects
+## ## 🚀 Featured Engineering Projects
 
 ### [Project 4B — NTC Thermistor Temperature Test Bench](https://github.com/aarontrujillofz-ee/project-4b-wokwi-ntc-thermistor-temperature-test-bench)
 
@@ -59,6 +59,7 @@ LTspice and KiCad-based thermistor voltage divider project with Python plotting 
 
 **Engineering Focus:** Circuit simulation, thermistor modeling, voltage-divider analysis
 **Tools:** LTspice, KiCad, Python, circuit analysis, technical documentation
+
 
 ---
 
