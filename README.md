@@ -1,54 +1,67 @@
 # Hi, I'm Aaron Trujillo 👋
 
-### Electrical Engineering Graduate | Hardware Test | Embedded Systems | Python Test Automation
+### Electrical Engineering Graduate | Hardware Test | Validation | Embedded Systems | Python Test Automation
 
-I'm an Electrical Engineering graduate from California State University, Fullerton, focused on hardware validation, embedded systems, sensor testing, Python automation, and technical documentation.
+I'm an Electrical Engineering graduate from California State University, Fullerton, focused on hardware validation, embedded systems, sensor bring-up, ADC workflows, Python test automation, and technical documentation.
 
-My GitHub portfolio is built around one practical engineering workflow:
+My engineering portfolio is built around one repeatable workflow:
 
-> Design → Simulate → Test → Log Data → Analyze → Report
+> Requirements → Circuit / Wiring → Firmware → Clean Telemetry → CSV Logging → Python Analysis → Plots → PDF Report → GitHub Evidence
 
----
-
-## 🔧 Core Engineering Skills
-
-* Hardware test and validation
-* Embedded systems and sensor interfaces
-* Arduino / Tiva-C / ARM Cortex-M
-* Python automation for data analysis and engineering reports
-* LTspice circuit simulation
-* KiCad PCB design
-* ADC logging and sensor classification
-* CSV data logging, plotting, and report generation
-* Technical documentation for engineering projects
+I do not just post demos. I build projects that produce data, plots, reports, and documentation another engineer can inspect.
 
 ---
 
-## ## 🚀 Featured Engineering Projects
+## 🔥 Current Strongest Proof
+
+### [Project 5 — ESP32 Hardware Validation Test Bench](https://github.com/aarontrujillofz-ee/project-5-esp32-hardware-validation-test-bench)
+
+Real ESP32 hardware validation project using a DHT11 temperature/humidity sensor, LDR photoresistor voltage divider, and PIR motion sensor. The ESP32 prints clean CSV telemetry, Python logs and analyzes the data, and the project generates validation plots, summaries, and a PDF report.
+
+**Final run evidence:**
+
+| Metric | Result |
+|---|---:|
+| Real ESP32 rows analyzed | 150 |
+| Temperature range | 29.00–30.90 °C |
+| Humidity range | 40–41% |
+| Light ADC range | 2432–2966 |
+| Motion states observed | 0 and 1 |
+| Status result | WARN, expected from 29.0 °C warning threshold |
+
+**Engineering Focus:** real hardware bring-up, sensor wiring, ESP32 GPIO/ADC, serial telemetry, threshold logic, Python logging, data validation, plots, and report generation  
+**Tools:** ESP32, Arduino/C++, DHT11, LDR voltage divider, PIR sensor, Python, pandas, matplotlib, ReportLab, CSV, Git/GitHub
+
+---
+
+## 🚀 Featured Engineering Projects
 
 ### [Project 4B — NTC Thermistor Temperature Test Bench](https://github.com/aarontrujillofz-ee/project-4b-wokwi-ntc-thermistor-temperature-test-bench)
 
-Wokwi Arduino Uno simulation using an NTC thermistor, ADC conversion, resistance calculation, Beta-equation temperature estimation, Python analysis, plots, and automated PDF reporting.
+Wokwi Arduino Uno simulation using an NTC thermistor, ADC conversion, resistance calculation, Beta-equation temperature estimation, NORMAL/WARN/FAIL classification, Python analysis, plots, and automated PDF reporting.
 
-**Engineering Focus:** Sensor validation, ADC conversion, temperature classification, automated reporting
-**Tools:** Arduino, Wokwi, Python, matplotlib, CSV logging, PDF generation
+**Final run:** 11 samples, 24.96–57.94 °C, 4 NORMAL / 3 WARN / 4 FAIL, final FAIL after crossing the defined 50 °C threshold.  
+**Engineering Focus:** sensor validation, ADC conversion, temperature classification, automated reporting  
+**Tools:** Arduino, Wokwi, Python, pandas, matplotlib, CSV logging, PDF generation
 
 ---
 
 ### [Project 4A — Simulated Hardware Test Bench](https://github.com/aarontrujillofz-ee/project-4a-wokwi-simulated-hardware-test-bench)
 
-Arduino potentiometer test bench that logs ADC voltage data, classifies readings as NORMAL / WARN / FAIL, and generates engineering plots and reports.
+Arduino potentiometer validation bench that logs ADC voltage data, classifies readings as NORMAL/WARN/FAIL, and generates engineering plots and reports.
 
-**Engineering Focus:** Hardware test workflow, signal classification, validation reporting
+**Final run:** 48 samples, full 0–1023 ADC range, 0.000–5.000 V sweep, 38 NORMAL / 3 WARN / 7 FAIL.  
+**Engineering Focus:** ADC workflow, signal classification, validation reporting, repeatable test evidence  
 **Tools:** Arduino, Wokwi, Python, CSV logging, matplotlib, PDF generation
 
 ---
 
 ### [Project 3 — Virtual Embedded Sensor Data Logger](https://github.com/aarontrujillofz-ee/Project_3_Virtual_Embedded_Sensor_Data_Logger)
 
-Python-based embedded sensor simulation that generates ADC readings, logs data, creates plots, and produces automated engineering reports.
+Python-based embedded-style sensor simulation that generates ADC readings, logs data, creates plots, calculates statistics, and produces automated engineering reports.
 
-**Engineering Focus:** Embedded-style data logging, test automation, report generation
+**Final evidence:** 480 readings across four runs with CSV logs, statistics, plots, and PDF reports.  
+**Engineering Focus:** embedded-style data logging, test automation, simulated sensor validation, report generation  
 **Tools:** Python, pandas, matplotlib, CSV files, PDF reporting
 
 ---
@@ -57,54 +70,27 @@ Python-based embedded sensor simulation that generates ADC readings, logs data, 
 
 LTspice and KiCad-based thermistor voltage divider project with Python plotting and technical documentation.
 
-**Engineering Focus:** Circuit simulation, thermistor modeling, voltage-divider analysis
+**Engineering Focus:** circuit simulation, thermistor modeling, voltage-divider analysis, schematic/PCB workflow  
 **Tools:** LTspice, KiCad, Python, circuit analysis, technical documentation
-
-
----
-
-## 🧰 Tools & Technologies
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge\&logo=arduino\&logoColor=white)
-![KiCad](https://img.shields.io/badge/KiCad-314CB0?style=for-the-badge\&logo=kicad\&logoColor=white)
-![LTspice](https://img.shields.io/badge/LTspice-A00000?style=for-the-badge)
-![MATLAB](https://img.shields.io/badge/MATLAB-FF8000?style=for-the-badge)
-![VHDL](https://img.shields.io/badge/VHDL-543978?style=for-the-badge)
-![Embedded Systems](https://img.shields.io/badge/Embedded%20Systems-222222?style=for-the-badge)
-![Hardware Test](https://img.shields.io/badge/Hardware%20Test-00599C?style=for-the-badge)
-![Test Automation](https://img.shields.io/badge/Test%20Automation-2E8B57?style=for-the-badge)
 
 ---
 
 ## 🎯 Career Focus
 
-I'm actively building an engineering portfolio for entry-level roles in:
+I'm targeting entry-level roles in:
 
-* Electrical Engineering
-* Hardware Test Engineering
-* Validation Engineering
-* Embedded Systems Engineering
-* Python Test Automation
-* Engineering Operations
-
----
-
-## 📌 Portfolio Direction
-
-My current focus is building practical projects that show the full engineering process:
-
-* Simulated and physical sensor testing
-* Automated data collection
-* Python-based analysis
-* Engineering plots and summaries
-* Professional PDF reports
-* Clear documentation that another engineer can follow
+- Hardware Test Engineering
+- Validation Engineering
+- Embedded Test Engineering
+- Electrical Engineering
+- Avionics Test / Automation
+- Manufacturing Test / Product Support
+- Engineering Operations
 
 ---
 
 ## 📫 Contact
 
-* LinkedIn: https://www.linkedin.com/in/aaron-trujillo-ee
-* Email: [aarontrujillofz@gmail.com](mailto:aarontrujillofz@gmail.com)
-* Location: Orange County, CA
+- LinkedIn: [linkedin.com/in/aaron-trujillo-ee](https://www.linkedin.com/in/aaron-trujillo-ee)
+- Email: [aarontrujillofz@gmail.com](mailto:aarontrujillofz@gmail.com)
+- Location: Orange County, California
